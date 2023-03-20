@@ -115,9 +115,10 @@ class Goodbye2{
         $this->name = $name;
         $this->age = $age;
     }
-    
+
     public function Welcome() {
         echo self::welcome_Message;
+
     }
 }
 
@@ -125,7 +126,7 @@ $welcome = new Goodbye2();
 $welcome->Welcome();
 
 
-
+//abstract classes
 
 
 
